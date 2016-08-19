@@ -1,2 +1,9 @@
-Manifest-Version: 1.0
+---
+applications:
+- path: javagit.war
+  name: samplehello
+  memory: 512M
+  instances: 1
+  random-route: true
+  hostname : samplehello
 
